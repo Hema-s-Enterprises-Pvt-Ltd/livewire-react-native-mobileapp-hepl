@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1008678627699",
+    "project_id": "livewire-7bf7f",
+    "storage_bucket": "livewire-7bf7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008678627699:android:654f56860e1e826f667d06",
+        "android_client_info": {
+          "package_name": "com.citpl.raaga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuGS67NMHd3o3sCE-ZiOJIQPvtLAllNKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008678627699:android:bc544deed0ae1f76667d06",
+        "android_client_info": {
+          "package_name": "com.citpl.raaga.mosaic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuGS67NMHd3o3sCE-ZiOJIQPvtLAllNKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,121 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "App/assets/fonts/AntDesign.ttf",
+      "sha1": "4e77868439280fb434d4697c7b911271406c81f3"
+    },
+    {
+      "path": "App/assets/fonts/Entypo.ttf",
+      "sha1": "12b5670eb178138f77285d5f2c246d3cc5fa67d6"
+    },
+    {
+      "path": "App/assets/fonts/EvilIcons.ttf",
+      "sha1": "91d377ea3cf47490b256c2ed081704a7dabdae0c"
+    },
+    {
+      "path": "App/assets/fonts/Feather.ttf",
+      "sha1": "e6604258b1ced5efd51360875d782fca65381d47"
+    },
+    {
+      "path": "App/assets/fonts/FontAwesome.ttf",
+      "sha1": "13b1eab65a983c7a73bc7997c479d66943f7c6cb"
+    },
+    {
+      "path": "App/assets/fonts/FontAwesome5_Brands.ttf",
+      "sha1": "3fa2d67cef22da5c3f3eb5730c6afbd6fecf0372"
+    },
+    {
+      "path": "App/assets/fonts/FontAwesome5_Regular.ttf",
+      "sha1": "7d849a3981a716e2ba4a84634bc57d0b8054a6a3"
+    },
+    {
+      "path": "App/assets/fonts/FontAwesome5_Solid.ttf",
+      "sha1": "c1b9fae262f42868c075ac865a8ab34920e20a2c"
+    },
+    {
+      "path": "App/assets/fonts/FontAwesome6_Brands.ttf",
+      "sha1": "d8b3568e9d8a1d3c01c85520eb9ca0b49b72815d"
+    },
+    {
+      "path": "App/assets/fonts/FontAwesome6_Regular.ttf",
+      "sha1": "2d7890e12afb77490112ec57fe47ca0688aebda2"
+    },
+    {
+      "path": "App/assets/fonts/FontAwesome6_Solid.ttf",
+      "sha1": "e9ace557c3aa403307f1e7a2cef1c035d522b94b"
+    },
+    {
+      "path": "App/assets/fonts/Fontisto.ttf",
+      "sha1": "c090a3ec96a3f1bb9b615c2f3f204ce0dcdcdbc3"
+    },
+    {
+      "path": "App/assets/fonts/Foundation.ttf",
+      "sha1": "4b2bce6c792493a4a5716b6fec2dbefe89492c3f"
+    },
+    {
+      "path": "App/assets/fonts/Ionicons.ttf",
+      "sha1": "86e07c3d974eb09099e6e5a9b3b8310303cf0feb"
+    },
+    {
+      "path": "App/assets/fonts/MaterialCommunityIcons.ttf",
+      "sha1": "4c2a838b00dbb5e8bb1b368fce0de534e8eb241c"
+    },
+    {
+      "path": "App/assets/fonts/MaterialIcons.ttf",
+      "sha1": "7e02c3f005532ff4d24148567c84089756a7848a"
+    },
+    {
+      "path": "App/assets/fonts/Octicons.ttf",
+      "sha1": "56acefc0731f35ee23b195b1c8cb5fa94a0db97b"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-Black.otf",
+      "sha1": "d92baad4dab9ca55bc72f1a8a0a6de72829e709f"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-BlackItalic.otf",
+      "sha1": "2fada5e2f31f7e2f252d458094603daca66f4a0a"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-Bold.otf",
+      "sha1": "57a9e1c24984708865f7d0c31a03773912fb975f"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-BoldItalic.otf",
+      "sha1": "c279f41805b46f030eb4a1d55ceaf7c4cacd1a39"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-Italic.otf",
+      "sha1": "1ee38a9969b628781bc30ed690f6571aca189451"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-Light.otf",
+      "sha1": "3b1b977f00db442bdf30f63603112e6e251b7dda"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-LightItalic.otf",
+      "sha1": "782b6239e9a537ffcd574fb26b69201b67b96dc2"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-Medium.otf",
+      "sha1": "704faccb5fff19f25c0b914d42d135ab75794a24"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-MediumItalic.otf",
+      "sha1": "89936e7345cfa18dadc048e3a9266947c7f12839"
+    },
+    {
+      "path": "App/assets/fonts/Satoshi-Regular.otf",
+      "sha1": "7dcb59994f2bee1a4ef1f6c079ba0e99b409878b"
+    },
+    {
+      "path": "App/assets/fonts/SimpleLineIcons.ttf",
+      "sha1": "9ffb81a5a11112e292f2cc323e98486bad597599"
+    },
+    {
+      "path": "App/assets/fonts/Zocial.ttf",
+      "sha1": "6a48a962b06cc3acbdfd61df0d9a34744eea5e8d"
+    }
+  ]
+}

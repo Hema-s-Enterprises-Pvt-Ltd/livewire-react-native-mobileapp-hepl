@@ -1,0 +1,84 @@
+require_relative '../node_modules/react-native-permissions/scripts/setup'
+# Resolve react_native_pods.rb with node to allow for hoisting
+require Pod::Executable.execute_command('node', ['-p',
+  'require.resolve(
+    "react-native/scripts/react_native_pods.rb",
+    {paths: [process.argv[1]]},
+  )', __dir__]).strip
+
+platform :ios, min_ios_version_supported
+prepare_react_native_project!
+
+linkage = ENV['USE_FRAMEWORKS']
+if linkage != nil
+  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
+  use_frameworks! :linkage => linkage.to_sym
+end
+
+def node_require(script)
+  # Resolve script with node to allow for hoisting
+  require Pod::Executable.execute_command('node', ['-p',
+    "require.resolve(
+      '#{script}',
+      {paths: [process.argv[1]]},
+    )", __dir__]).strip
+end
+node_require('react-native/scripts/react_native_pods.rb')
+node_require('react-native-permissions/scripts/setup.rb')
+# :arrow_down: uncomment wanted permissions
+setup_permissions([
+# 'AppTrackingTransparency',
+# 'Bluetooth',
+# 'Calendars',
+# 'CalendarsWriteOnly',
+'Camera',
+# 'Contacts',
+# 'FaceID',
+# 'LocationAccuracy',
+# 'LocationAlways',
+# 'LocationWhenInUse',
+# 'MediaLibrary',
+# 'Microphone',
+# 'Motion',
+# 'Notifications',
+# 'PhotoLibrary',
+# 'PhotoLibraryAddOnly',
+# 'Reminders',
+# 'Siri',
+# 'SpeechRecognition',
+# 'StoreKit',
+])
+target 'Raaga' do
+  config = use_native_modules!
+
+  # Add Firebase pods with modular headers
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
+  pod 'FirebaseCrashlytics', :modular_headers => true
+  pod 'FirebaseSessions', :modular_headers => true
+  pod 'FirebaseInstallations', :modular_headers => true
+  pod 'GoogleDataTransport', :modular_headers => true
+  pod 'nanopb', :modular_headers => true
+  # Add FirebaseCoreExtension with modular headers as it's required for FirebaseSessions
+  pod 'FirebaseCoreExtension', :modular_headers => true
+  pod 'FirebaseAnalytics', :modular_headers => true
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    :app_path => "#{Pod::Config.instance.installation_root}/..",
+    :hermes_enabled => false
+  )
+
+  target 'RaagaTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  post_install do |installer|
+    react_native_post_install(
+      installer,
+      config[:reactNativePath],
+      :mac_catalyst_enabled => false,
+    )
+  end
+end
